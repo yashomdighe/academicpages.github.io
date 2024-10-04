@@ -101,7 +101,10 @@ classes: wide
 		margin-top: 2px;
 	}
 
-	.edu-desc {}
+	.edu-desc {
+     text-align: justify;
+    text-justify: inter-word
+  }
 
 	.content {
 		text-align: justify;
@@ -161,9 +164,11 @@ classes: wide
 </div>
 
 <div class='content vspace-top'>
-I'm a first year Ph.D. student at the University at Buffalo working with <a href="https://www.buffalo.edu/cear/about-us/leadership-and-administration.host.html/content/shared/engineering/computer-science-engineering/profiles/faculty/ladder/dantu-karthik.html">Dr. Karthik Dantu </a> at <a href="http://drones.cse.buffalo.edu">Distributed RObotics and Networked Embedded Sensing (DRONESLab)</a>. I obtained my Master's degree in Robotics in Dec. 2023 at UB during which I worked on autonmous racing. Currently, I am also teaching the CSE568 course at UB. <br>
+I'm Ph.D. student at the University at Buffalo working with <a href="https://www.buffalo.edu/cear/about-us/leadership-and-administration.host.html/content/shared/engineering/computer-science-engineering/profiles/faculty/ladder/dantu-karthik.html">Dr. Karthik Dantu </a> at <a href="http://drones.cse.buffalo.edu">Distributed RObotics and Networked Embedded Sensing (DRONESLab)</a>. Currently, I am also teaching the CSE568 course at UB. <br>
 <br>
 My research interests lie at the intersection of motion planning, control and robot learning. I am working on unifying these by leveraging the knowledge from classical techniques as priors for learning based approaches. 
+<br>
+You can find my resume <a href="/files/yashom_dighe_resume.pdf">here </a>
 </div>
 
 <!-- PUBLICATIONS ===================================================== -->
@@ -193,36 +198,83 @@ My research interests lie at the intersection of motion planning, control and ro
 				In this work, we show the effectiveness of Differential Flatness based control for high-speed trajectory tracking for car-like robots. We demonstrate a 15% increase in trajectory tracking performance compared to MPC while reducing the required compute by more than 50%, both in simulation and on a real 1:10 scale race-car.
 			</div>
 			<div class='paper-links'>
-				<a href="https://ieeexplore.ieee.org/document/10341603" target="_blank">[paper]</a>
+				<a href="https://ieeexplore.ieee.org/document/10341603" target="_blank">[Paper]</a>
 				<!-- <a href="https://tjchase34.github.io/yoco_web/" target="_blank">[Project Page]</a> -->
 				<!-- [AAS Paper (Coming Soon)]
 				[Project Page (Coming Soon)] -->
 			</div>
 		</div>
 	</div>
+  
+<!-- KFC ----- -->
+<div class='row vspace-top'>
+		<div class="col-sm-3">
+      <a href="/images/sagaf1t.png"><img src='/images/sagaf1t.png' class='img-fluid'></a>
+		</div>
+		<div class="col">
+			<div class='paper-title'>
+				SAGAF1T: Surface Adaptive Grip Aware Trajectory Generation for F1Tenth
+			</div>
+			<div class='paper-authors'>
+				Smit Rajguru, <u>Yashom Dighe</u>, Yash Turkar, Christo Aluckal, Ninad Kale, Karthik Dantu
+			</div>
+			<div class='paper-bib'>
+				Submitted to RAL 
+			</div>
+			<div class='paper-desc'>
+        Identifying a raceline, is a non-trivial problem in motor-sports. Professional racers spend countless hours in simulations and on the real track to identify a path that lets them push the limits of the car to their maximum. Our paper presents a systematic, optimization based approach to attain time-optimal racing trajectories that incorporate vehicle grip for a car-like robot to operate at the limits of handling under diverse conditions. We compare against more commonly used approaches such as minimum curvature. Our raceline generation algorithm outperforms minimum curvature by 20% in simulation and 15% in experiments. 
+			</div>
+			<div class='paper-links'>
+				<!-- <a href="https://ieeexplore.ieee.org/document/10341603" target="_blank">[paper]</a> -->
+				<!-- <a href="https://tjchase34.github.io/yoco_web/" target="_blank">[Project Page]</a> -->
+				[Paper (Coming Soon)]
+				[Project Page (Coming Soon)]
+			</div>
+		</div>
+	</div>
 
-<!-- INTERNSHIPS =====================================================
+<!-- Current Research  ===================================================== -->
 <div class='section-sep section-vspace-top'>
-		<h1>Selected Work Experience</h1>
+		<h1>Current Research</h1>
 </div>
 
 <div class='row vspace-top'>
-  <div class="col-sm-4">
-    Dec. 2021 - Present
-  </div>
   <div class="col">
     <div class='edu-title'>
-      NASA Goddard Space Flight Center
+      Differential Flatness based Trajectory Generation for Autonomous Racing [Project Page (Coming Soon)]
     </div>
     <div class="edu-desc">
-      Pathways Student, Science Data Processing Branch (Code 587)<br>
-      Embedded Autonomy and AI<br>
-	  R&D Flight Software
+      <!-- We want to do xyz -->
     </div>
   </div>
 </div>
 
 <div class='row vspace-top'>
+  <div class="col">
+    <div class='edu-title'>
+      Extending visual planning to 3D spaces using Gaussian Splatting and Imitation Learning[Project Page (Coming Soon)]
+    </div>
+    <div class="edu-desc">
+      <!-- We want to do xyz -->
+    </div>
+  </div>
+</div>
+
+<div class='row vspace-top'>
+  <div class="col">
+    <div class='edu-title'>
+      <a href="https://droneslab.github.io/EARTH" target="_blank">EARTH: Excavation Autonomy with Resilient Traversability and Handling</a> 
+    </div>
+    <div class="edu-desc">
+      
+
+Excavators, earth-movers, and large construction vehicles have been instrumental in propelling human civilization forward at an unprecedented pace. Recent breakthroughs in computing power, algorithms, and learning architectures have ushered in a new era of autonomy in robotics, now enabling these machines to operate independently. To this end, we introduce EARTH (Excavation Autonomy with Resilient Traversability and Handling), a groundbreaking framework for autonomous excavators and earth-movers. EARTH integrates several novel perception, planning, and hydraulic control components that work synergistically to empower embodied autonomy in these massive machines. This three-year project, funded by MOOG and undertaken in collaboration with the Center for Embodied Autonomy and Robotics (CEAR), represents a significant leap forward in the field of construction robotics.
+
+    </div>
+  </div>
+</div>
+
+<!-- <div class='row vspace-top'>
   <div class="col-sm-4">
     May 2018 - Dec. 2021
   </div>
@@ -289,14 +341,14 @@ My research interests lie at the intersection of motion planning, control and ro
 
 <div class='row vspace-top'>
   <div class="col-sm-4">
-        Aug. 2020 - Present
+        Jan. 2024 - Present
 	</div>
   <div class="col">
     <div class='edu-title'>
       University at Buffalo
     </div>
 			<div class="edu-desc">
-				Ph.D. Candidate, Computer Science and Engineering<br>
+				PhD, Computer Science and Engineering<br>
         Distributed RObotics and Networked Embedded Sensing (DRONES) Lab<br>
         Advised by Dr. Karthik Dantu<br>
 			</div>
@@ -305,7 +357,7 @@ My research interests lie at the intersection of motion planning, control and ro
 
 <div class='row vspace-top'>
   <div class="col-sm-4">
-        Aug. 2022 - Deb. 2023
+        Aug. 2022 - Dec. 2023
 	</div>
   <div class="col">
     <div class='edu-title'>

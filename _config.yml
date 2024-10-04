@@ -11,7 +11,7 @@ locale                   : "en-US"
 title                    : "Yashom Dighe"
 title_separator          : "-"
 name                     : &name "Your Name"
-description              : &description "personal description"
+description              : &description "Yashom's personal webpage"
 url                      : https://yashomdighe.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "yashomdighe/academicpages.github.io"
@@ -27,7 +27,7 @@ author:
   bio              : "PhD Student @ UB, CSE \t\t\t\t\tDRONESLab"
   # location         : "Earth"
   employer         : "University at Buffalo, SUNY"
-  uri              : # URL
+  # uri              : https://engineering.buffalo.edu/computer-science-engineering.html
   email            : "digheyashom@gmail.com" 
 
   # Academic websites
