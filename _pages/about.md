@@ -175,6 +175,37 @@ You can find my resume <a href="/files/yashom_dighe_resume.pdf">here </a>
 <div class='section-sep section-vspace-top'>
 		<h1>Selected Publications</h1>
 </div>
+<div class='row vspace-top'>
+        <div class="video-container">
+          <iframe width="320" height="240"
+            src="https://youtu.be/nX56DGGrWxk"
+            title="VISION"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+          </iframe>
+        </div>
+		<div class="col">
+			<div class='paper-title'>
+				VISION: Visual Inspection System with Intelligent Observation and Navigation
+			</div>
+			<div class='paper-authors'>
+				<u>Yashom Dighe*</u>, Yash Turkar*, Karthik Dantu
+			</div>
+			<!-- <div class='paper-bib'>
+				Submitted to RAL 
+			</div> -->
+			<div class='paper-desc'>
+              Culverts on canals such as Erie Canal built originally in 1825 require frequent inspections to ensure safe operation. Human inspection of culverts is challenging due to age, geometry, poor illumination, weather and lack of easy access. We introduce VISION, an end-to-end, language-in-the-loop autonomy system that couples a web-scale vision–language model (VLM) with constrained viewpoint planning for autonomous inspection of culverts. Brief prompts to the VLM solicit open-vocabulary ROI proposals with rationales and confidences, stereo depth is fused to recover scale, and a planner—aware of culvert constraints commands repositioning moves to capture targeted close-ups. Deployed on a quadruped in Culvert under the Erie canal, VISION closes the see→decide→move→re-image loop on-board and produces high-resolution images for detailed reporting without domain-specific fine-tuning. In an external evaluation by New York Canal Corporation personnel, initial ROI proposals achieved 61.4% agreement with subject-matter experts, and final post-re-imaging assessments reached 80%, indicating that VISION converts tentative hypotheses into grounded, expert-aligned findings. 
+			</div>
+			<div class='paper-links'>
+				<a href="https://ieeexplore.ieee.org/document/10341603" target="_blank">[paper]</a>
+				<a href="https://arxiv.org/abs/2509.21370" target="_blank">[Project Page]</a>
+				[Paper]
+				[Project Page]
+			</div>
+		</div>
+	</div>
 <!-- KFC ----- -->
 <div class='row vspace-top'>
 		<div class="col-sm-3">
@@ -207,47 +238,21 @@ You can find my resume <a href="/files/yashom_dighe_resume.pdf">here </a>
 	</div>
   
 <!-- KFC ----- -->
-<div class='row vspace-top'>
-		<div class="col-sm-3">
-      <a href="/images/sagaf1t.png"><img src='/images/sagaf1t.png' class='img-fluid'></a>
-		</div>
-		<div class="col">
-			<div class='paper-title'>
-				SAGAF1T: Surface Adaptive Grip Aware Trajectory Generation for F1Tenth
-			</div>
-			<div class='paper-authors'>
-				Smit Rajguru, <u>Yashom Dighe</u>, Yash Turkar, Christo Aluckal, Ninad Kale, Karthik Dantu
-			</div>
-			<div class='paper-bib'>
-				Submitted to RAL 
-			</div>
-			<div class='paper-desc'>
-        Identifying a raceline, is a non-trivial problem in motor-sports. Professional racers spend countless hours in simulations and on the real track to identify a path that lets them push the limits of the car to their maximum. Our paper presents a systematic, optimization based approach to attain time-optimal racing trajectories that incorporate vehicle grip for a car-like robot to operate at the limits of handling under diverse conditions. We compare against more commonly used approaches such as minimum curvature. Our raceline generation algorithm outperforms minimum curvature by 20% in simulation and 15% in experiments. 
-			</div>
-			<div class='paper-links'>
-				<!-- <a href="https://ieeexplore.ieee.org/document/10341603" target="_blank">[paper]</a> -->
-				<!-- <a href="https://tjchase34.github.io/yoco_web/" target="_blank">[Project Page]</a> -->
-				[Paper (Coming Soon)]
-				[Project Page (Coming Soon)]
-			</div>
-		</div>
-	</div>
 
 <!-- Current Research  ===================================================== -->
 <div class='section-sep section-vspace-top'>
 		<h1>Current Research</h1>
 </div>
 
-<div class='row vspace-top'>
+<!-- <div class='row vspace-top'>
   <div class="col">
     <div class='edu-title'>
       Differential Flatness based Trajectory Generation for Autonomous Racing [Project Page (Coming Soon)]
     </div>
     <div class="edu-desc">
-      <!-- We want to do xyz -->
     </div>
   </div>
-</div>
+</div> -->
 
 <div class='row vspace-top'>
   <div class="col">
