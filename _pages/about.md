@@ -178,7 +178,7 @@ You can find my resume <a href="/files/yashom_dighe_resume.pdf">here </a>
 <div class='row vspace-top'>
         <div class="video-container">
           <iframe width="320" height="240"
-            src="https://youtu.be/nX56DGGrWxk"
+            src="https://www.youtube.com/embed/nX56DGGrWxk?si=O7p7c_XYFVder_eq"
             title="VISION"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
