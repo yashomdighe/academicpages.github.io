@@ -176,12 +176,13 @@ You can find my resume <a href="/files/yashom_dighe_resume.pdf">here </a>
 		<h1>Selected Publications</h1>
 </div>
 <div class='row vspace-top'>
-        <div class="video-container">
+        <div class="col-sm-3">
           <iframe width="320" height="240"
             src="https://www.youtube.com/embed/nX56DGGrWxk?si=O7p7c_XYFVder_eq"
-            title="VISION"
+            title="YouTube video player" 
             frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+			referrerpolicy="strict-origin-when-cross-origin" 
             allowfullscreen>
           </iframe>
         </div>
@@ -196,13 +197,11 @@ You can find my resume <a href="/files/yashom_dighe_resume.pdf">here </a>
 				Submitted to RAL 
 			</div> -->
 			<div class='paper-desc'>
-              Culverts on canals such as Erie Canal built originally in 1825 require frequent inspections to ensure safe operation. Human inspection of culverts is challenging due to age, geometry, poor illumination, weather and lack of easy access. We introduce VISION, an end-to-end, language-in-the-loop autonomy system that couples a web-scale vision–language model (VLM) with constrained viewpoint planning for autonomous inspection of culverts. Brief prompts to the VLM solicit open-vocabulary ROI proposals with rationales and confidences, stereo depth is fused to recover scale, and a planner—aware of culvert constraints commands repositioning moves to capture targeted close-ups. Deployed on a quadruped in Culvert under the Erie canal, VISION closes the see→decide→move→re-image loop on-board and produces high-resolution images for detailed reporting without domain-specific fine-tuning. In an external evaluation by New York Canal Corporation personnel, initial ROI proposals achieved 61.4% agreement with subject-matter experts, and final post-re-imaging assessments reached 80%, indicating that VISION converts tentative hypotheses into grounded, expert-aligned findings. 
+              Culverts along canals like the Erie Canal require regular inspection but are difficult for humans to access due to their geometry, lighting, and environmental conditions. We present VISION, a language-guided autonomous inspection system that integrates a vision–language model with constrained viewpoint planning. Brief prompts generate open-vocabulary defect proposals, depth fusion recovers scale, and a planner commands the robot to capture targeted re-images. Deployed on a quadruped in real culverts, VISION achieved up to 80% agreement with expert assessments.
 			</div>
 			<div class='paper-links'>
 				<a href="https://ieeexplore.ieee.org/document/10341603" target="_blank">[paper]</a>
 				<a href="https://arxiv.org/abs/2509.21370" target="_blank">[Project Page]</a>
-				[Paper]
-				[Project Page]
 			</div>
 		</div>
 	</div>
@@ -210,10 +209,10 @@ You can find my resume <a href="/files/yashom_dighe_resume.pdf">here </a>
 <div class='row vspace-top'>
 		<div class="col-sm-3">
 		 <video width="320" height="240" controls>
-    <source src="/assets/video/kfc.mp4" type="video/mp4">
-    <source src="movie.ogg" type="video/ogg">
-    Your browser does not support the video tag.
-</video> 
+            <source src="/assets/video/kfc.mp4" type="video/mp4">
+            <source src="movie.ogg" type="video/ogg">
+    		Your browser does not support the video tag.
+		</video> 
 		</div>
 		<div class="col">
 			<div class='paper-title'>
@@ -230,9 +229,6 @@ You can find my resume <a href="/files/yashom_dighe_resume.pdf">here </a>
 			</div>
 			<div class='paper-links'>
 				<a href="https://ieeexplore.ieee.org/document/10341603" target="_blank">[Paper]</a>
-				<!-- <a href="https://tjchase34.github.io/yoco_web/" target="_blank">[Project Page]</a> -->
-				<!-- [AAS Paper (Coming Soon)]
-				[Project Page (Coming Soon)] -->
 			</div>
 		</div>
 	</div>
