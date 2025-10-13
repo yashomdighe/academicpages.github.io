@@ -164,17 +164,51 @@ classes: wide
 </div>
 
 <div class='content vspace-top'>
-I'm Ph.D. student at the University at Buffalo working with <a href="https://www.buffalo.edu/cear/about-us/leadership-and-administration.host.html/content/shared/engineering/computer-science-engineering/profiles/faculty/ladder/dantu-karthik.html">Dr. Karthik Dantu </a> at <a href="http://drones.cse.buffalo.edu">Distributed RObotics and Networked Embedded Sensing (DRONESLab)</a>. Currently, I am also teaching the CSE568 course at UB. <br>
+I'm Ph.D. student at the University at Buffalo working with <a href="https://www.buffalo.edu/cear/about-us/leadership-and-administration.host.html/content/shared/engineering/computer-science-engineering/profiles/faculty/ladder/dantu-karthik.html">Dr. Karthik Dantu </a> at <a href="http://drones.cse.buffalo.edu">Distributed RObotics and Networked Embedded Sensing (DRONESLab)</a>. Previously, I am also taught the CSE568 course at UB. <br>
 <br>
-My research interests lie at the intersection of motion planning, control and robot learning. I am working on unifying these by leveraging the knowledge from classical techniques as priors for learning based approaches. 
+My research interests lie at the intersection of motion planning, control and robot learning. Currently I am working on 3D representations for robot learning.
 <br>
 You can find my resume <a href="/files/yashom_dighe_resume.pdf">here </a>
 </div>
 
 <!-- PUBLICATIONS ===================================================== -->
+<!-- QuayPoints -->
 <div class='section-sep section-vspace-top'>
 		<h1>Selected Publications</h1>
 </div>
+<div class='row vspace-top'>
+        <div class="col-sm-3">
+          <iframe width="320" height="240"
+            src="https://www.youtube.com/embed/HT7AG8sDkm8?si=2gRtphkLgILWiSsJ" 
+            title="YouTube video player" 
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+			referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen>
+          </iframe>
+        </div>
+		<div class="col">
+			<div class='paper-title'>
+				QuayPoints: A Reasoning Framework to Bridge the Information Gap Between Global and Local Planning in Autonomous Racing
+			</div>
+			<div class='paper-authors'>
+				<u>Yashom Dighe</u>, Youngjin Kim, Karthik Dantu
+			</div>
+			<!-- <div class='paper-bib'>
+				Submitted to RAL 
+			</div> -->
+			<div class='paper-desc'>
+        		Autonomous racing demands rapid, coordinated perception, planning, and control. Conventional pipelines often lose high-level racing context as information flows downstream, limiting local decision-making. Our work introduces QuayPoints—regions along the raceline where deviations lead to significant time loss. By conveying this global optimality knowledge to the local planner, QuayPoints help existing planners make more informed decisions and achieve consistently better performance across diverse race tracks.
+			</div>
+			<div class='paper-links'>
+				<!-- <a href="https://arxiv.org/abs/2509.21370" target="_blank">[Arxiv]</a> -->
+				<!-- <a href="https://droneslab.github.io/vision" target="_blank">[Project Page]</a> -->
+				[Arxiv]
+			</div>
+		</div>
+	</div>
+<!-- QuayPoints -->
+<!-- VISION -->
 <div class='row vspace-top'>
         <div class="col-sm-3">
           <iframe width="320" height="240"
@@ -205,6 +239,7 @@ You can find my resume <a href="/files/yashom_dighe_resume.pdf">here </a>
 			</div>
 		</div>
 	</div>
+<!-- VISION -->
 <!-- KFC ----- -->
 <div class='row vspace-top'>
 		<div class="col-sm-3">
@@ -237,28 +272,7 @@ You can find my resume <a href="/files/yashom_dighe_resume.pdf">here </a>
 
 <!-- Current Research  ===================================================== -->
 <div class='section-sep section-vspace-top'>
-		<h1>Current Research</h1>
-</div>
-
-<!-- <div class='row vspace-top'>
-  <div class="col">
-    <div class='edu-title'>
-      Differential Flatness based Trajectory Generation for Autonomous Racing [Project Page (Coming Soon)]
-    </div>
-    <div class="edu-desc">
-    </div>
-  </div>
-</div> -->
-
-<div class='row vspace-top'>
-  <div class="col">
-    <div class='edu-title'>
-      Extending visual planning to 3D spaces using Gaussian Splatting and Imitation Learning[Project Page (Coming Soon)]
-    </div>
-    <div class="edu-desc">
-      <!-- We want to do xyz -->
-    </div>
-  </div>
+		<h1>Other Research Projects</h1>
 </div>
 
 <div class='row vspace-top'>
