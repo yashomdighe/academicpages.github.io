@@ -281,73 +281,76 @@ You can find my resume <a href="/files/yashom_dighe_resume.pdf">here </a>
       <a href="https://droneslab.github.io/EARTH" target="_blank">EARTH: Excavation Autonomy with Resilient Traversability and Handling</a> 
     </div>
     <div class="edu-desc">
-      
-
-Excavators, earth-movers, and large construction vehicles have been instrumental in propelling human civilization forward at an unprecedented pace. Recent breakthroughs in computing power, algorithms, and learning architectures have ushered in a new era of autonomy in robotics, now enabling these machines to operate independently. To this end, we introduce EARTH (Excavation Autonomy with Resilient Traversability and Handling), a groundbreaking framework for autonomous excavators and earth-movers. EARTH integrates several novel perception, planning, and hydraulic control components that work synergistically to empower embodied autonomy in these massive machines. This three-year project, funded by MOOG and undertaken in collaboration with the Center for Embodied Autonomy and Robotics (CEAR), represents a significant leap forward in the field of construction robotics.
-
+		Excavators, earth-movers, and large construction vehicles have been instrumental in propelling human civilization forward at an unprecedented pace. Recent breakthroughs in computing power, algorithms, and learning architectures have ushered in a new era of autonomy in robotics, now enabling these machines to operate independently. To this end, we introduce EARTH (Excavation Autonomy with Resilient Traversability and Handling), a groundbreaking framework for autonomous excavators and earth-movers. EARTH integrates several novel perception, planning, and hydraulic control components that work synergistically to empower embodied autonomy in these massive machines. This three-year project, funded by MOOG and undertaken in collaboration with the Center for Embodied Autonomy and Robotics (CEAR), represents a significant leap forward in the field of construction robotics.
     </div>
   </div>
 </div>
 
-<!-- <div class='row vspace-top'>
-  <div class="col-sm-4">
-    May 2018 - Dec. 2021
-  </div>
-  <div class="col">
-    <div class='edu-title'>
-      NASA Goddard Space Flight Center - Wallops Flight Facility
-    </div>
-    <div class="edu-desc">
-      Pathways Student, Wallops Systems Software Engineering Branch (Code 589)<br>
-      Cube/Small-satellite Flight Software
-    </div>
-  </div>
+
+<!-- Previous Projects -->
+<div class='section-sep section-vspace-top'>
+		<h1>Previous Projects</h1>
+</div>
+<div class='row vspace-top'>
+	<div class="col">
+		<div class='edu-title'>
+		<!-- “Hex-Wife”, a hex-rotor UAV system -->
+		<a href="https://github.com/droneslab/audubon_gazebo.git">Audubon Gazebo</a>
+		</div>
+		<div class="edu-desc">
+		F1tenth Simulator in Gazebo classic and ROS Noetic
+		</div>
+	</div>
 </div>
 
 <div class='row vspace-top'>
-  <div class="col-sm-4">
-    Sep. 2019 - Jan. 2020
-  </div>
-  <div class="col">
-    <div class='edu-title'>
-      NASA Jet Propulsion Laboratory
-    </div>
-    <div class="edu-desc">
-      Intern, Robot Operations Group (347K)<br>
-      Simulation, Mars 2020 Rover Operations
-    </div>
-  </div>
+	<div class="col">
+		<div class='edu-title'>
+		<!-- “Hex-Wife”, a hex-rotor UAV system -->
+		<a href="files/Dynamic path planning system for UAV remote sensing in urban environments.pdf">UAV Path Planning</a>
+		</div>
+		<div class="edu-desc">
+		A geometry based path planning system for UAV remote sensing in urban environments
+		</div>
+	</div>
+</div>
+
+
+<div class='row vspace-top'>
+	<div class="col">
+		<div class='edu-title'>
+		<!-- “Hex-Wife”, a hex-rotor UAV system -->
+		<a href="files/Mavericks_UAS_SUAS_Report.pdf">“Hex-Wife”, a hex-rotor UAV system</a>
+		</div>
+		<div class="edu-desc">
+		An inexpensive and reliable autonomous Unmanned Aerial System (UAV) capable of performing point-to-point autonomous missions
+		</div>
+	</div>
+</div>
+<div class='row vspace-top'>
+	<div class="col">
+		<div class='edu-title'>
+		<!-- PixTrigger -->
+		<a href="https://github.com/InfiCorridor-Solutions/PixTrigger">PixTrigger </a>
+		</div>
+		<div class="edu-desc">
+		An open source tool to trigger cameras using Pixhawk and Raspberry Pi
+		</div>
+	</div>
 </div>
 
 <div class='row vspace-top'>
-  <div class="col-sm-4">
-    Jan. 2019 - Jan. 2020
-  </div>
-  <div class="col">
-    <div class='edu-title'>
-      NOVI Aerospace
-    </div>
-    <div class="edu-desc">
-      Machine Learning Consultant<br>
-      Dataset Curator
-    </div>
-  </div>
+	<div class="col">
+		<div class='edu-title'>
+		<!-- VTOL -->
+		<a href="files/Deliverable 2.pdf">VTOL</a> 
+		</div>
+		<div class="edu-desc">
+		A hybrid Unmanned Aerial Vehicle (UAV) with Vertical Take-Off and Landing (VTOL) capabilites built around a high-wing trainer model aircraft
+		</div>
+	</div>
 </div>
 
-<div class='row vspace-top'>
-  <div class="col-sm-4">
-    Mar. 2016 - May. 2020
-  </div>
-  <div class="col">
-    <div class='edu-title'>
-      UB Nanosatellite Laboratory
-    </div>
-    <div class="edu-desc">
-      Flight Software Lead (~15-45 Students)<br>
-	  Three CubeSat Missions
-    </div>
-  </div>
-</div> -->
 
 <!-- EDUCATION ===================================================== -->
 <div class='section-sep section-vspace-top'>
