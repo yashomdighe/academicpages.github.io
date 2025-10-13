@@ -201,7 +201,7 @@ You can find my resume <a href="/files/yashom_dighe_resume.pdf">here </a>
 			</div>
 			<div class='paper-links'>
 				<a href="https://arxiv.org/abs/2509.21370" target="_blank">[Arxiv]</a>
-				<a href="https://droneslab.github.io/VISION" target="_blank">[Project Page]</a>
+				<a href="https://droneslab.github.io/vision" target="_blank">[Project Page]</a>
 			</div>
 		</div>
 	</div>
