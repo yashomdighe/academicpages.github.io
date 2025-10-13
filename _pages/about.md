@@ -200,8 +200,8 @@ You can find my resume <a href="/files/yashom_dighe_resume.pdf">here </a>
               Culverts along canals like the Erie Canal require regular inspection but are difficult for humans to access due to their geometry, lighting, and environmental conditions. We present VISION, a language-guided autonomous inspection system that integrates a vision–language model with constrained viewpoint planning. Brief prompts generate open-vocabulary defect proposals, depth fusion recovers scale, and a planner commands the robot to capture targeted re-images. Deployed on a quadruped in real culverts, VISION achieved up to 80% agreement with expert assessments.
 			</div>
 			<div class='paper-links'>
-				<a href="https://ieeexplore.ieee.org/document/10341603" target="_blank">[paper]</a>
-				<a href="https://arxiv.org/abs/2509.21370" target="_blank">[Project Page]</a>
+				<a href="https://arxiv.org/abs/2509.21370" target="_blank">[Arxiv]</a>
+				<a href="https://droneslab.github.io/VISION" target="_blank">[Project Page]</a>
 			</div>
 		</div>
 	</div>
