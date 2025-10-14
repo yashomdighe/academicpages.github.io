@@ -201,9 +201,9 @@ You can find my resume <a href="/files/yashom_dighe_resume.pdf">here </a>
         		Autonomous racing demands rapid, coordinated perception, planning, and control. Conventional pipelines often lose high-level racing context as information flows downstream, limiting local decision-making. Our work introduces QuayPoints—regions along the raceline where deviations lead to significant time loss. By conveying this global optimality knowledge to the local planner, QuayPoints help existing planners make more informed decisions and achieve consistently better performance across diverse race tracks.
 			</div>
 			<div class='paper-links'>
-				<!-- <a href="https://arxiv.org/abs/2509.21370" target="_blank">[Arxiv]</a> -->
+				<a href="https://arxiv.org/abs/2510.10886" target="_blank">[Arxiv]</a>
 				<!-- <a href="https://droneslab.github.io/vision" target="_blank">[Project Page]</a> -->
-				[Arxiv]
+				<!-- [Arxiv] -->
 			</div>
 		</div>
 	</div>
