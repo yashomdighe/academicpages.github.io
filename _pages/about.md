@@ -168,7 +168,7 @@ I'm Ph.D. student at the University at Buffalo working with <a href="https://www
 <br>
 My research interests lie at the intersection of motion planning, control and robot learning. Currently I am working on 3D representations for robot learning.
 <br>
-You can find my resume <a href="/files/yashom_dighe_resume.pdf">here </a>
+You can find my CV <a href="files/Yashom_CV_OCT25.pdf">here </a>
 </div>
 
 <!-- PUBLICATIONS ===================================================== -->
