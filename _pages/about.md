@@ -156,6 +156,23 @@ classes: wide
 		max-width: 100%;
 		height: auto;
 	}
+
+	/* Match the responsive 4:3 wrappers FitVids creates for YouTube. */
+	.paper-video {
+		position: relative;
+		width: 100%;
+		padding-top: 75%;
+	}
+
+	.paper-video video {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		object-fit: contain;
+		background: #000;
+	}
 </style>
 
 <!-- ABOUT ===================================================== -->
@@ -164,18 +181,48 @@ classes: wide
 </div>
 
 <div class='content vspace-top'>
-I'm Ph.D. student at the University at Buffalo working with <a href="https://www.buffalo.edu/cear/about-us/leadership-and-administration.host.html/content/shared/engineering/computer-science-engineering/profiles/faculty/ladder/dantu-karthik.html">Dr. Karthik Dantu </a> at <a href="http://drones.cse.buffalo.edu">Distributed RObotics and Networked Embedded Sensing (DRONESLab)</a>. Previously, I am also taught the CSE568 course at UB. <br>
+I'm Ph.D. student at the University at Buffalo working with <a href="https://www.buffalo.edu/cear/about-us/leadership-and-administration.host.html/content/shared/engineering/computer-science-engineering/profiles/faculty/ladder/dantu-karthik.html">Dr. Karthik Dantu </a> at <a href="http://drones.cse.buffalo.edu">Distributed RObotics and Networked Embedded Sensing (DRONESLab)</a>. My research focus is on <strong>representations for robot learning.</strong> <br>
 <br>
-My research interests lie at the intersection of motion planning, control and robot learning. Currently I am working on 3D representations for robot learning.
-<br>
+In spring 2026 I interned at Skydio where I worked on learnt motion planning. Previously, I also taught the CSE568 course at UB. <br>
+
 You can find my CV <a href="files/Yashom_CV_OCT25.pdf">here </a>
 </div>
 
 <!-- PUBLICATIONS ===================================================== -->
-<!-- QuayPoints -->
 <div class='section-sep section-vspace-top'>
 		<h1>Selected Publications</h1>
 </div>
+<!-- Rotation-Aware Point-Cloud Embeddings -->
+<div class='row vspace-top'>
+		<div class="col-sm-3">
+			<div class="paper-video">
+			<video width="320" height="240" controls playsinline preload="metadata" aria-label="Rotation-aware point-cloud embeddings for in-hand reorientation video">
+				<source src="{{ '/assets/video/corl26_video.mp4' | relative_url }}" type="video/mp4">
+				Your browser does not support the video tag. <a href="{{ '/assets/video/corl26_video.mp4' | relative_url }}">Download the video</a>.
+			</video>
+			</div>
+		</div>
+		<div class="col">
+			<div class='paper-title'>
+				Rotation-Aware Point-Cloud Embeddings for Vision-Based In-Hand Reorientation
+			</div>
+			<div class='paper-authors'>
+				<u>Yashom Dighe</u>, Karthik Dantu
+			</div>
+			<div class='paper-bib'>
+				Accepted at the 3rd Workshop on Dexterous Manipulation, CoRL 2026
+			</div>
+			<div class='paper-desc'>
+				We learn point-cloud embeddings whose distances reflect differences in object orientation, making current and goal geometry directly comparable for dexterous control. Using these embeddings, a reinforcement learning policy learns in-hand reorientation without pose or flow inputs or teacher-action supervision. In simulation, the approach achieves reorientation success competitive with privileged-state and distillation-based baselines.
+			</div>
+			<div class='paper-links'>
+				<a href="https://arxiv.org/abs/2606.21788" target="_blank" rel="noopener noreferrer">[Arxiv]</a>
+				<a href="https://arxiv.org/pdf/2606.21788" target="_blank" rel="noopener noreferrer">[PDF]</a>
+				<a href="https://openreview.net/forum?id=aPbT1KmiK7" target="_blank" rel="noopener noreferrer">[OpenReview]</a>
+			</div>
+		</div>
+</div>
+<!-- QuayPoints -->
 <div class='row vspace-top'>
         <div class="col-sm-3">
           <iframe width="320" height="240"
@@ -243,11 +290,13 @@ You can find my CV <a href="files/Yashom_CV_OCT25.pdf">here </a>
 <!-- KFC ----- -->
 <div class='row vspace-top'>
 		<div class="col-sm-3">
+		 <div class="paper-video">
 		 <video width="320" height="240" controls>
             <source src="/assets/video/kfc.mp4" type="video/mp4">
             <source src="movie.ogg" type="video/ogg">
     		Your browser does not support the video tag.
 		</video> 
+		 </div>
 		</div>
 		<div class="col">
 			<div class='paper-title'>
